@@ -3,7 +3,6 @@ class Solution:
         n=len(nums)//2
         count={}
         for num in nums:
-            print(num)
             if num in count:
                 count[num]+=1
             else:
