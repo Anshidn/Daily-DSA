@@ -5,6 +5,7 @@ class Solution:
         for i in range(len(nums)):
             if i == 0 or nums[i] != nums[i-1]:
                 nums[k] = nums[i]
+                print(nums[k])
                 k += 1
 
         return k
